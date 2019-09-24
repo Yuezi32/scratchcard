@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>刮刮卡</title>
+    <script src="scratchcard.js"></script>
+</head>
+
+<body>
+    <div class="card">
+        <canvas id="canvas" width="750" height="280"></canvas>
+    </div>
+</body>
+<script>
+window.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+}, {passive: false});
+
+
+new ScratchCard({
+	canvas: document.getElementById('canvas'),
+	coverImg: 'scratch-2x.jpg',
+    pixelRatio: 2,
+	doneCallback: function() {
+		console.log('done')
+	}
+});
+</script>
+<style>
+.card {
+    width: 375px;
+    height: 140px;
+    background: url('award.jpg');
+    background-size: 375px 140px;
+}
+
+.card canvas {
+    width: 375px;
+    height: 140px;
+}
+</style>
+
+</html>
