@@ -19,7 +19,7 @@ new ScratchCard({
 |canvas|canvas元素|null|
 |showAllPercent|直接全部刮开的百分比|65|
 |coverImg|图片图层|null|
-|coverColor|纯色图层,例如：#cccccc。如果图片图层值不为null，则纯色图层无效|null|
+|coverColor|纯色图层，例如：#cccccc。如果图片图层值不为null，则纯色图层无效|null|
 |doneCallback|全部刮开回调|null|
 |radius|屏幕倍数|20|
 |pixelRatio|屏幕倍数|1|
