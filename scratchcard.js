@@ -13,7 +13,7 @@ function ScratchCard(config) {
         doneCallback: null,
         // 擦除半径
         radius: 20,
-        // 图片倍数
+        // 屏幕倍数
         pixelRatio: 1,
         // 展现全部的淡出效果时间（ms）
         fadeOut: 2000,
