@@ -114,10 +114,10 @@ ScratchCard.prototype = {
     },
     // 获取刮开区域百分比
     _getFilledPercentage: function() {
-        let imgData = this.ctx.getImageData(0, 0, this.canvas.width, this.canvas.height);
-        let pixels = imgData.data;
-        let transPixels = [];
-        for (let i = 0; i < pixels.length; i += 4) {
+        var imgData = this.ctx.getImageData(0, 0, this.canvas.width, this.canvas.height);
+        var pixels = imgData.data;
+        var transPixels = [];
+        for (var i = 0; i < pixels.length; i += 4) {
             if (pixels[i + 3] < 128) {
                 transPixels.push(pixels[i + 3]);
             }
