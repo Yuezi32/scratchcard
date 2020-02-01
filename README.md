@@ -31,4 +31,4 @@ new ScratchCard({
 
 头条号：卧梅又闻花
 
-![avatar](https://photo.weibo.com/1197331287/wbphotos/large/mid/4467263170420337/pid/475dd357ly1gbh774dw0dj210n0ku443)
+![avatar](https://wx3.sinaimg.cn/large/475dd357ly1gbh774dw0dj210n0ku443.jpg)
